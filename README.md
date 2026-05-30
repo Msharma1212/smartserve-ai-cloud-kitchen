@@ -1,20 +1,106 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# SmartServe AI Cloud Kitchen OS
 
-# Run and deploy your AI Studio app
+SmartServe AI Cloud Kitchen OS is a production-oriented cloud kitchen and delivery management platform designed for food businesses, franchises, and enterprise operations.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/92b536d3-1c78-433d-aa3f-66895debe040
+### Customer Platform
 
-## Run Locally
+* Mobile OTP Authentication
+* Food Ordering System
+* Cart & Checkout
+* Coupon Management
+* Rewards & Wallet
+* PNR-Based Train Food Ordering
+* Live Order Tracking
 
-**Prerequisites:**  Node.js
+### Enterprise Platform
 
+* Founder HQ Dashboard
+* Franchise Management System
+* Kitchen Operations Dashboard
+* Rider Management Panel
+* Employee Management System
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Real-Time Capabilities
+
+* Live Order Updates
+* Rider Tracking
+* Kitchen Status Monitoring
+* Real-Time Notifications
+
+### Technology Stack
+
+#### Frontend
+
+* React
+* TypeScript
+* Tailwind CSS
+* Vite
+
+#### Backend
+
+* Node.js
+* Express.js
+
+#### Databases
+
+* MongoDB Atlas
+* PostgreSQL (Supabase)
+
+#### Real-Time
+
+* Socket.io
+
+#### Integrations
+
+* Google Maps Platform
+* Twilio OTP Verification
+* Razorpay Payments
+
+## Installation
+
+### Prerequisites
+
+* Node.js 18+
+* MongoDB Atlas
+* PostgreSQL Database
+* Google Maps API Key
+* Twilio Credentials
+
+### Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Msharma1212/smartserve-ai-cloud-kitchen.git
+cd smartserve
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Configure environment variables
+
+Create a `.env` file using `.env.example`.
+
+4. Start development server
+
+```bash
+npm run dev
+```
+
+## Architecture
+
+SmartServe follows a scalable cloud-native architecture with separate frontend, backend, database, and real-time communication layers.
+
+## Author
+
+Developed by Mayank Sharma
+
+## License
+
+For educational and demonstration purposes.
