@@ -1,0 +1,6 @@
+{
+  "name": "SmartServe AI Cloud Kitchen OS",
+  "description": "Enterprise-grade cloud kitchen and delivery-first platform with PNR train delivery, live tracking, and role-based staff portals.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
