@@ -3,7 +3,6 @@ import express from "express";
 import cors from "cors";
 import path from "path";
 import mongoose from "mongoose";
-import { fileURLToPath } from "url";
 import { createServer as createHttpServer } from "http";
 import { Server as SocketIOServer } from "socket.io";
 import { createServer as createViteServer } from "vite";
@@ -60,8 +59,6 @@ process.on("uncaughtException", (error) => {
 });
 
 // Resolve ES module paths
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 const projectRoot = process.cwd();
 
 // Safe Lazy-Initialized Gemini Engine
