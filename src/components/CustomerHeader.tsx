@@ -71,7 +71,7 @@ export default function CustomerHeader({
             className={`px-3.5 py-2 rounded-xl transition-all font-sans ${currentPage === "home" ? "bg-orange-55 bg-orange-50 text-primary font-bold shadow-sm/5" : "hover:bg-slate-50"}`}
             id="nav-tab-home"
           >
-            Home Landing
+            Home
           </button>
           
           <button
@@ -112,7 +112,7 @@ export default function CustomerHeader({
             className={`px-3.5 py-2 rounded-xl transition-all font-sans ${currentPage === "about" ? "bg-orange-55 bg-orange-50 text-primary font-bold shadow-sm/5" : "hover:bg-slate-50"}`}
             id="nav-tab-about"
           >
-            About OS
+            About
           </button>
         </nav>
 

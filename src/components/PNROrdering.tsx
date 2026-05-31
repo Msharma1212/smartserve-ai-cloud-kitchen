@@ -3,7 +3,7 @@ import { Franchise, TrainPNR, TrainStop } from "../types";
 import { 
   Train, Search, AlertTriangle, ArrowRight, CheckCircle, Clock, 
   Volume2, ShieldCheck, Zap, Compass, RefreshCw, Crosshair, Lock,
-  Info, Sparkles, MapPin, Radio
+  Info, ChefHat, MapPin, Radio
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { 
@@ -340,7 +340,7 @@ export default function PNROrdering({ onSelectStation, simulatedTime = "21:38", 
               }}
               className="bg-slate-50 hover:bg-slate-100 border border-slate-200 py-1.5 px-3 rounded-lg text-[10px] font-mono font-bold text-slate-700 transition flex items-center gap-1 cursor-pointer"
             >
-              <Sparkles className="w-3 h-3 text-amber-500" />
+              <ChefHat className="w-3 h-3 text-amber-500" />
               <span>{item.tag} ({item.pnr})</span>
             </button>
           ))}

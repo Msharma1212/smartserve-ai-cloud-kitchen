@@ -1,0 +1,121 @@
+{
+  "wallet_transactions": [],
+  "saved_addresses": [
+    {
+      "id": "addr_1",
+      "phone": "+91 9999999999",
+      "address": "Stellar Building, Sector 62, Noida, DLF Phase 3, Delhi NCR",
+      "tag": "Office",
+      "isDefault": true
+    },
+    {
+      "id": "addr_2",
+      "phone": "+91 9999999999",
+      "address": "Vardhman Apartment, Rohini Sec 9, New Delhi",
+      "tag": "Home",
+      "isDefault": false
+    }
+  ],
+  "support_tickets": [
+    {
+      "id": "ticket_5983",
+      "phone": "6268788939",
+      "subject": "prayagraj outlet delievery delay",
+      "category": "Delivery Delay",
+      "description": "prayagraj outlet delievery delay when train departure then delievery boy call for accept parcel",
+      "status": "OPEN",
+      "createdAt": "2026-05-30T17:23:19.209Z",
+      "replies": [
+        {
+          "sender": "Support AI Coordinator",
+          "message": "Hello! We've registered ticket category 'Delivery Delay' concerning 'prayagraj outlet delievery delay'. An executive is checking with the local station kitchen to resolve your enquiry. Outlets are informed.",
+          "createdAt": "2026-05-30T17:23:19.209Z"
+        }
+      ]
+    },
+    {
+      "id": "ticket_1",
+      "phone": "+91 9999999999",
+      "subject": "Delay in Noida Sector 62 order route",
+      "category": "Delivery Delay",
+      "description": "The rider has been stationed at the crossroads traffic lights for 10 minutes.",
+      "status": "RESOLVED",
+      "createdAt": "2026-05-30T15:19:35.794Z",
+      "replies": [
+        {
+          "sender": "Support Agent",
+          "message": "Apologies for the traffic delay. We have contacted Captain Rohit to accelerate the heat shield boxes directly to your desk.",
+          "createdAt": "2026-05-30T16:19:35.794Z"
+        }
+      ]
+    }
+  ],
+  "favorite_items": [
+    {
+      "phone": "+91 9999999999",
+      "menuId": "p1"
+    },
+    {
+      "phone": "+91 9999999999",
+      "menuId": "p3"
+    }
+  ],
+  "reward_points": {
+    "+91 9999999999": {
+      "points": 720,
+      "tier": "Gold Elite",
+      "referrals": 4,
+      "scratchcards": [
+        {
+          "id": "card_1",
+          "title": "Midnight Feast Pass",
+          "prize": "₹150 Cashback on next ordered meals!",
+          "scratched": false,
+          "value": 150
+        },
+        {
+          "id": "card_2",
+          "title": "Wood-fired Starter Reward",
+          "prize": "Free Herb Butter Garlic Bread coupon!",
+          "scratched": true,
+          "value": 0
+        },
+        {
+          "id": "card_3",
+          "title": "Carbon-Free Green Bonus",
+          "prize": "₹50 direct wallet refill added!",
+          "scratched": false,
+          "value": 50
+        }
+      ]
+    },
+    "6268788939": {
+      "points": 480,
+      "tier": "Silver Club",
+      "referrals": 2,
+      "scratchcards": [
+        {
+          "id": "card_1",
+          "title": "Double Cheese Coupon",
+          "prize": "Free extra cheese on next ordered items!",
+          "scratched": false,
+          "value": 0
+        },
+        {
+          "id": "card_2",
+          "title": "Eco-green Reward",
+          "prize": "₹50 wallet credit added instantly!",
+          "scratched": false,
+          "value": 50
+        },
+        {
+          "id": "card_3",
+          "title": "Station Express Refill",
+          "prize": "₹100 coupon code: RAIL100 unlocked!",
+          "scratched": true,
+          "value": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Franchise, Order, Rider } from "../types";
 import { 
-  Building, Sparkles, Send, Target, Compass, RefreshCw, 
+  Building, ChefHat, Send, Target, Compass, RefreshCw, 
   BarChart, Users, AlertCircle, PlusCircle, ShieldAlert,
   TrendingUp, Truck, MapPin, DollarSign, Award, Radio
 } from "lucide-react";
@@ -202,7 +202,7 @@ export default function EnterpriseHQ({ franchises, orders, onAddFranchise }: Pro
         <div className="bg-gradient-to-r from-emerald-950 to-[#0c2e22] border border-emerald-900 rounded-2xl p-5 text-white space-y-3 relative overflow-hidden flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-1 bg-emerald-800 bg-opacity-40 border border-emerald-700 px-2 py-0.5 rounded text-[9px] font-mono text-emerald-300 w-fit font-bold uppercase">
-              <Sparkles className="w-3 h-3 text-emerald-400 animate-pulse" />
+              <ChefHat className="w-3 h-3 text-emerald-400 animate-pulse" />
               <span>GEMINI DEMAND PREDICTOR</span>
             </div>
             <h3 className="text-sm font-bold text-emerald-100 mt-2">Active Meteorological Ingress Forecast</h3>
@@ -230,7 +230,7 @@ export default function EnterpriseHQ({ franchises, orders, onAddFranchise }: Pro
         <div className="bg-gradient-to-r from-indigo-950 to-[#12193b] border border-indigo-900 rounded-2xl p-5 text-white space-y-3 relative overflow-hidden flex flex-col justify-between" id="surging-advice-gemini">
           <div>
             <div className="flex items-center gap-1 bg-indigo-900/60 px-2 py-0.5 rounded text-[9px] font-mono text-indigo-300 w-fit font-bold uppercase border border-indigo-800 bg-indigo-805">
-              <Sparkles className="w-3 h-3 text-indigo-400 animate-pulse" />
+              <ChefHat className="w-3 h-3 text-indigo-400 animate-pulse" />
               <span>DYNAMIC SURGE PRICING MULTIPLIER</span>
             </div>
             <h3 className="text-sm font-bold text-indigo-100 mt-2">Real-time Elastic Valuation Advisory</h3>

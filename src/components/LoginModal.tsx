@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { LogIn, Phone, User, CheckCircle2, ShieldAlert, Sparkles, X, ChevronRight, Lock } from "lucide-react";
+import { LogIn, Phone, User, CheckCircle2, ShieldAlert, ChefHat, X, ChevronRight, Lock } from "lucide-react";
 
 interface Props {
   isOpen: boolean;
@@ -72,7 +72,7 @@ export default function LoginModal({
             {/* 1. Header with branding */}
             <div className="text-center space-y-2">
               <div className="inline-flex items-center gap-1.5 bg-orange-50 border border-orange-100 text-primary px-3 py-1 rounded-full text-[10px] font-mono font-bold uppercase tracking-wider">
-                <Sparkles className="w-3 h-3 text-primary animate-pulse" />
+                <ChefHat className="w-3 h-3 text-primary animate-pulse" />
                 <span>SmartServe Security Gateway</span>
               </div>
               <h3 className="text-xl font-black text-slate-900 tracking-tight font-display">
@@ -205,7 +205,7 @@ export default function LoginModal({
             {/* Simulated Firebase disclaimer check with small text */}
             <div className="border-t border-slate-100 pt-4 text-center">
               <span className="text-[9px] text-[#94a3b8] font-mono leading-relaxed block max-w-xs mx-auto">
-                🔒 Secured by Firebase Auth node in offline testing sandbox mode. Zero cookies are tracked outside session persistence.
+                🔒 Secured by Firebase Auth node in offline testing 
               </span>
             </div>
 

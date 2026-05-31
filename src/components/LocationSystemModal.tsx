@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { MapPin, Navigation, Search, Check, AlertCircle, Sparkles, Map, Keyboard, X } from "lucide-react";
+import { MapPin, Navigation, Search, Check, AlertCircle, ChefHat, Map, Keyboard, X } from "lucide-react";
 import { Franchise } from "../types";
 
 // Earth's radius in km for Haversine distance computations

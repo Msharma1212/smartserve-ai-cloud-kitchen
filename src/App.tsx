@@ -26,7 +26,7 @@ import {
   getLinearTimes 
 } from "./lib/trainTracking";
 
-import { ShoppingCart, LogIn, AlertCircle, Sparkles, MapPin, CheckCircle, ShieldCheck, CreditCard, ChevronRight, X, Navigation, Star, Clock, Car, Coffee, Train, ArrowRight, Loader2 } from "lucide-react";
+import { ShoppingCart, LogIn, AlertCircle, ChefHat, MapPin, CheckCircle, ShieldCheck, CreditCard, ChevronRight, X, Navigation, Star, Clock, Car, Coffee, Train, ArrowRight, Loader2 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { io as socketIOClient } from "socket.io-client";
 
@@ -2236,7 +2236,7 @@ export default function App() {
             <span className="text-[9px] uppercase tracking-wider text-emerald-200 block font-mono font-bold">Checkout basket</span>
             <span className="text-xs font-black">View Active Cart (₹{grandTotalResult})</span>
           </div>
-          <ChevronRight className="w-4 h-4 text-emerald-100" />
+          <ChevronRight className="w-0 h-0 text-emerald-100" />
         </motion.button>
       )}
 

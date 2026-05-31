@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { MenuItem } from "../types";
-import { Search, Sparkles, MapPin, Compass, Percent, Star, ArrowRight, ShieldCheck, Zap, Clock, ThumbsUp, Tag, Car, Coffee, Train, Check, AlertCircle, X, Users } from "lucide-react";
+import { Search, ChefHat, MapPin, Compass, Percent, Star, ArrowRight, ShieldCheck, Zap, Clock, ThumbsUp, Tag, Car, Coffee, Train, Check, AlertCircle, X, Users } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 interface Props {
@@ -152,7 +152,7 @@ export default function HeroLanding({
           {/* Left Hero Column */}
           <div className="lg:col-span-7 space-y-6 text-left">
             <div className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-500/20 to-amber-500/10 border border-orange-500/30 text-orange-400 px-3.5 py-1.5 rounded-full text-xs font-mono font-bold tracking-wider">
-              <Sparkles className="w-3.5 h-3.5 animate-pulse text-orange-400" />
+              <ChefHat className="w-3.5 h-3.5 animate-pulse text-orange-400" />
               <span>CLOUD KITCHEN REVOLUTION: 15MIN DIRECT-GRID DELIVERY</span>
             </div>
 
@@ -335,7 +335,7 @@ export default function HeroLanding({
           </div>
           <div className="hidden lg:block text-right shrink-0">
             <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-[10px] uppercase font-mono font-bold tracking-wider rounded-lg border border-primary/20">
-              ⚡ Status: Core Engine Online
+              ⚡ Status:Online Facility Available
             </span>
           </div>
         </div>
@@ -349,7 +349,7 @@ export default function HeroLanding({
               tag: "Hot box",
               badge: "GPS Tracked",
               icon: <MapPin className="w-5 h-5 text-white" />,
-              image: "https://images.unsplash.com/photo-1526367790999-0150786486a9?auto=format&fit=crop&w=600&q=80"
+              image: "https://images.unsplash.com/photo-1607273685680-6bd976c5a5ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdwcyUyMGFpJTIwZGVsaXZlcnklMjBmb29kJTIwaGQlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D"
             },
             {
               id: "dine-in",
@@ -394,7 +394,7 @@ export default function HeroLanding({
               desc: "Seamlessly customize thermodynamic bulk platters for office lunch, group gathers & parties.",
               tag: "Bulk deals",
               badge: "Catering",
-              icon: <Sparkles className="w-5 h-5 text-white" />,
+              icon: <ChefHat className="w-5 h-5 text-white" />,
               image: "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=600&q=80",
               isCatering: true
             }
@@ -811,7 +811,7 @@ export default function HeroLanding({
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="space-y-1.5">
             <div className="inline-flex items-center gap-1.5 bg-orange-400 bg-opacity-20 border border-orange-400 border-opacity-30 text-orange-300 px-2 rounded-md py-1 text-[10px] font-mono font-bold tracking-wider">
-              <Sparkles className="w-3 h-3 text-orange-400" />
+              <ChefHat className="w-3 h-3 text-orange-400" />
               <span>DYNAMIC AI RECOMMENDATION ENGINE</span>
             </div>
             <h3 className="text-lg font-black text-orange-100 font-display">Antigravity AI Food Pairing Advisory</h3>
@@ -1032,7 +1032,7 @@ export default function HeroLanding({
                 {/* 2. PACKAGE PRESETS SELECTOR */}
                 <div className="space-y-3">
                   <label className="text-xs font-black uppercase font-mono text-slate-600 tracking-wider block">
-                    Choose Gastronomic Package:
+                    SmartServe Meal Packages:
                   </label>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                     {[
@@ -1071,9 +1071,9 @@ export default function HeroLanding({
                   </label>
                   <div className="space-y-2">
                     {[
-                      { id: "crockery", title: "Thermal Convection Carriers (+ $2.50 / head)", desc: "Maintains temperature at exactly 68°C until the final guest sits." },
-                      { id: "server", title: "On-site Buffet Captain & Assistant (+$120.00)", desc: "Full-service staffing for setup, thermal monitoring, & tidy disposal." },
-                      { id: "dessert", title: "Laurels Dessert Tower (+ $4.00 / head)", desc: "Sweet patisseries and dynamic thermodynamic cooled ice creams." }
+                      { id: "crockery", title: "Advanced Thermal Convection Carriers (+ $2.50 / head)", desc: "Precision-engineered heat retention technology keeps every dish fresh, aromatic, and served at an optimal 68°C from kitchen dispatch until the final guest is seated." },
+                      { id: "server", title: "Dedicated Buffet Captain & Service Assistant (+ $120.00)", desc: "Professional hospitality staff manage buffet setup, temperature control, guest assistance, replenishment, and post-event cleanup to ensure a seamless dining experience." },
+                      { id: "dessert", title: "Laurels Signature Dessert Tower (+ $4.00 / head)", desc: "An elegant display of handcrafted pastries, gourmet desserts, and premium ice creams maintained at ideal serving temperatures for a memorable sweet finale." }
                     ].map((add) => {
                       const isChecked = cateringAddons.includes(add.id);
                       return (
@@ -1229,8 +1229,8 @@ export default function HeroLanding({
                     }}
                     className="w-full bg-primary hover:bg-primary-hover text-white rounded-xl py-3 text-xs font-bold uppercase tracking-wider transition-all shadow-lg shadow-orange-500/25 flex items-center justify-center gap-2 cursor-pointer"
                   >
-                    <Sparkles className="w-4 h-4 text-white" />
-                    <span>Synchronize Custom Menu with AI</span>
+                    <ChefHat className="w-4 h-4 text-white" />
+                    <span>Customize Your Menu</span>
                   </button>
                 </div>
               </div>

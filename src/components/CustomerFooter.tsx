@@ -64,7 +64,7 @@ export default function CustomerFooter({ onNavigate }: Props) {
               </div>
               <div className="flex items-center gap-1.5 text-slate-400">
                 <PhoneCall className="w-3.5 h-3.5" />
-                <span>+91 11-45099300</span>
+                <span>+91 6268788939</span>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function CustomerFooter({ onNavigate }: Props) {
           {/* CRITICAL ATTRIBUTION REQUIREMENT */}
           <div className="flex items-center gap-1 mt-4 md:mt-0 bg-slate-950 px-3 py-1.5 rounded-full border border-slate-800 border-opacity-70 text-slate-300 font-mono text-[11px] hover:text-emerald-400 transition-colors">
             <span>Designed & Developed by</span>
-            <span className="text-emerald-400 font-extrabold focus:outline-none">Balakraj & Mayank</span>
+            <span className="text-emerald-400 font-extrabold focus:outline-none">Mayank</span>
             <Heart className="w-3 h-3 text-emerald-400 animate-pulse fill-emerald-400 ml-1" />
           </div>
         </div>

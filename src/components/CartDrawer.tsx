@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { ShoppingCart, X, Plus, Minus, Tag, MapPin, CreditCard, LogIn, Sparkles, HelpCircle, Eye, Trash2, Car, Coffee, Compass, Train, Clock, Check, AlertCircle } from "lucide-react";
+import { ShoppingCart, X, Plus, Minus, Tag, MapPin, CreditCard, LogIn, ChefHat, HelpCircle, Eye, Trash2, Car, Coffee, Compass, Train, Clock, Check, AlertCircle } from "lucide-react";
 import { CartItem, Franchise } from "../types";
 import { 
   getTrainPositionInfo, 
