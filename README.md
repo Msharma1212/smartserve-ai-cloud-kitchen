@@ -184,3 +184,13 @@ If you found this project useful:
 
 🍴 Fork the repository
 
+🐞 Report issues
+
+🤝 Contribute to the project
+
+📄 License
+
+This project is intended for educational, demonstration, and portfolio purposes. Commercial use requires prior permission from the author.
+
+
+
